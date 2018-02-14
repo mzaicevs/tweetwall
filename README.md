@@ -13,6 +13,9 @@ $ cd Backend
 $ npm install 
 $ npm start
 ```
+
+**Server application runs on port 8999. Make sure its not in use!**
+
 ### Frontend app installation
 
 Project requires [Node.js](https://nodejs.org/) v6+ to run.
@@ -25,7 +28,7 @@ $ npm install
 $ npm start
 ```
 
-**Application runs on port 4200. Make sure its not in use!**
+**Client side application runs on port 4200. Make sure its not in use!**
 
 ### Run tests
 
