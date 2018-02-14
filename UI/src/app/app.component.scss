@@ -1,0 +1,16 @@
+
+.live-wall {
+  background-color: #fff;
+  max-width: 800px;
+  margin: 50px auto 100px;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid #ececec;
+  padding: 30px;
+
+  &__title {
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+  }
+}

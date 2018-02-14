@@ -1,0 +1,7 @@
+<div class="live-wall__feed feed">
+  <div class="feed__item" *ngFor="let tweet of tweets">
+    <img class="feed__img" src="{{tweet.user.profile_image_url}}" alt="{{tweet.user.name}}">
+    <span class="feed__text">{{tweet.text}}</span>
+    <div class="clear"></div>
+  </div>
+</div>

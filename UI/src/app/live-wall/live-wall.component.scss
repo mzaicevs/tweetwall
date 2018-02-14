@@ -1,0 +1,20 @@
+.feed {
+  margin-top: 20px;
+  padding-top: 20px;
+
+  &__item {
+    border-top: 1px solid #eee;
+    padding: 10px;
+  }
+
+  &__img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 100px;
+  }
+
+  &__text {
+    text-align: left;
+    display: block;
+  }
+}

@@ -1,0 +1,11 @@
+<div class="live-wall">
+  <h1 class="live-wall__title">{{title}}</h1>
+  <div class="live-wall__content">
+    <div class="live-wall__form">
+      <app-search-input (onSearchInput)="onSearchInput($event)"></app-search-input>
+      <app-search-submit [query]="query" (searchResults)="onSearchResults($event)"></app-search-submit>
+      <div class="clear"></div>
+    </div>
+    <app-live-wall [tweets]="tweets"></app-live-wall>
+  </div>
+</div>
