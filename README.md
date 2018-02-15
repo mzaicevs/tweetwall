@@ -10,6 +10,7 @@ Install the dependencies and devDependencies and start the server.
 
 ```sh
 $ cd Backend
+$ tsc
 $ npm install 
 $ npm start
 ```
